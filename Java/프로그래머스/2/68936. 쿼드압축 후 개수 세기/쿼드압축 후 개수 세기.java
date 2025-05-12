@@ -1,5 +1,5 @@
 class Solution{
-    boolean Check(int array[][]){
+    public boolean Check(int array[][]){
         int row = array.length;
         int col = row;
         int tmp = array[0][0];
@@ -12,7 +12,7 @@ class Solution{
         return true;
     }
 
-    int[][] Sub(int[][] arr, int startRow, int startCol, int endRow, int endCol) {
+    public int[][] Sub(int[][] arr, int startRow, int startCol, int endRow, int endCol) {
         int[][] result = new int[endRow - startRow][endCol - startCol];
         for (int i = startRow; i < endRow; i++) {
             for (int j = startCol; j < endCol; j++) {
@@ -22,7 +22,7 @@ class Solution{
         return result;
     }
 
-    void quad(int array[][],int[] answer){
+    public void quad(int array[][],int[] answer){
         int row=array.length;
         int col = row;
         if( row == 1 || Check(array)) {
@@ -38,7 +38,7 @@ class Solution{
         }
     }
 
-    int[] solution(int[][] array){
+    public int[] solution(int[][] array){
         int row = array.length;
         int col = row;
 
