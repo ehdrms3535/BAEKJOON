@@ -1,3 +1,5 @@
+//22112353 김동근
+
 class Solution{
     public boolean Check(int array[][]){
         int row = array.length;
@@ -48,3 +50,4 @@ class Solution{
         return answer;
     }
 }
+
